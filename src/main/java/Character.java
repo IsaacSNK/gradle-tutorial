@@ -3,6 +3,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Character {
     private String name;
+    private String lastname;
     private float height;
 
     public String getName() {
